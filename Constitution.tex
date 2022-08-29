@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{enumitem}
 \usepackage{float}
+\usepackage{color,soul} % need both color and soul packages to highlight text
 \usepackage[singlelinecheck=false]{caption}
 \title{Pork Rub Fantasy Football Constitution}
 %\author{Jnco}
@@ -191,16 +192,19 @@
         \item Thanksgiving Rivalry Week – matchups will be set to feature league rivalries (within divisions as this is an intradivisional week).
     \end{enumerate}
     \subsection{\textit{Section 5. Waiver Wire}}
-    The waiver wire is designed to allow owners to pick up players whom they think are worthy of being on their roster.\\
+    The Waiver Wire is designed to allow owners to pick up players whom they think are worthy of being on their roster.\\
 
-    \noindent The waiver wire operates in the following way:
+    \noindent The Waiver Wire operates in the following way:
     \begin{enumerate}[label=\Alph*)]
-        \item After the Draft, the waiver wire will open after at most 2 days.
-        \item The initial order of the waiver wire will be based on the inverse order of the Draft.
-        \item The order of the waiver wire will not reset every week.
-        \item The waiver order will be based on “move to last”, as in once an owner has chosen a player, that owner will move to the last place of the waiver order and the next owner in line will move to first on the waiver wire order.
-        \item Waiver wire picks will go through at 3:40 AM Eastern time on Tuesday as set by ESPN.
-        \item It is understood that any player who has a yellow icon next to him is on the waiver wire. Therefore, any owner that selects such players, regardless if it is in the initial waiver wire time period, will move to the end of the waiver order if the owner decides to accept that player.
+        \item After the Draft, the Waiver Wire will open after at most 2 days.
+        \item The initial order of the Waiver Wire will be based on the inverse order of the Draft.
+        \item The Waiver Wire's Player Acquisition System shall be the Free Agent Budget (FAB) system.
+        \item The Season Acquisition Limit shall be No Limit.
+        \item The Waiver Period shall be 1 Day.
+        \item The Player Acquisition Budget shall be \$100.
+        \item The Minimum Offer shall be \$0.
+        \item The FAB Tiebreaker shall be "Move to Last After Claim, Never Reset Order".
+        \item Waiver Wire picks will go through at 2:40 AM Central Time on Tuesdays, or as otherwise set by ESPN.
     \end{enumerate}
     \subsection{\textit{Section 6. Point Scoring}}
     As the goal in fantasy football is to score a greater amount of points than the opponent, it is necessary to define the point scoring system in this constitution. Below are the agreed upon scoring rules.
@@ -242,13 +246,14 @@
             \hline
         \end{tabular}
     \end{table}
-    \begin{table}[h]
+    \begin{table}[H]
         \caption{Head Coach}
         \begin{tabular}{lr|lr}
             \hline
             25+ point Win Margin (WM25) & 10 & 20-24 point Win Margin (WM20) & 8\\
             15-19 point Win Margin (WM15) & 6 & 10-14 point Win Margin (WM10) & 4\\
             5-9 point Win Margin (WM5) & 2 & 1-4 point Win Margin (WM1) & 1\\
+            Tie (TIE) & 0.5\\
             \hline
         \end{tabular}
     \end{table}
@@ -257,15 +262,22 @@
         \centering
         \begin{tabular}{lr|lr}
             \hline
-            Each Sack (SK) & 1 & Interception Return TD (INTTD) & 6\\
+            Each Sack (SK) & 1.5 & Interception Return TD (INTTD) & 6\\
             Fumble Return TD (FRTD) & 6 & Kickoff Return TD (KRTD) & 6\\
             Punt Return TD (PRTD) & 6 & Blocked Punt or FG return for TD (BLKKRTD) & 6\\
             Blocked Punt, PAT or FG (BLKK) & 2 & Each Interception (INT) & 2\\
-            Each Fumble Recovered (FR) & 2 & Each Safety (SF) & 4\\
-            0 points allowed (PA0) & 5 & 1-6 points allowed (PA1) & 4\\
-            7-13 points allowed (PA7) & 3 & 14-17 points allowed (PA14) & 1\\
-            Less than 100 total yards allowed (YA100) & 5 & 100-199 total yards allowed (YA199) & 3\\
-            200-299 total yards allowed (YA299) & 2\\
+            Each Fumble Recovered (FR) & 1 & Each Safety (SF) & 4\\
+            Each Fumble Forced (FF) & 1\\
+            Points Allowed (PA) & -0.1 & Yards Allowed (YA) & -0.01\\
+            0 points allowed (PA0) & 2.5 & Less than 100 total yards allowed (YA100) & 3.5 \\
+            1-6 points allowed (PA1) & 2.5 & 100-199 total yards allowed (YA199) & 3.5\\
+            7-13 points allowed (PA7) & 2.5 & 200-299 total yards allowed (YA299) & 3.5\\
+            14-17 points allowed (PA14) & 2.5 & 300-349 total yards allowed (YA349) & 3.5\\
+            18-21 points allowed (PA18) & 2.5 & 350-399 total yards allowed (YA399) & 3.5\\
+            22-27 points allowed (PA22) & 2.5 & 400-449 total yards allowed (YA449) & 3.5\\
+            28-34 points allowed (PA28) & 2.5 & 450-499 total yards allowed (YA499) & 3.5\\
+            35-45 points allowed (PA35) & 2.5 & 500-549 total yards allowed (YA549) & 3.5\\
+            46+ points allowed (PA46) & 2.5 & 550+ total yards allowed (YA550) & 3.5\\
             \hline
         \end{tabular}
     \end{table}
